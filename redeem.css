@@ -1,0 +1,461 @@
+body{
+    margin: 0px;
+}
+.content{
+    height: 1000px;
+    width: 100%;
+   
+
+}
+.header{
+    height: 7%;
+    width: 100%;
+    
+    background-color: #dd3131;
+    
+}
+.gap_1{
+    height: 7%;
+    width: 4%;
+    float: left;
+    
+}
+.logo{
+    height: 7%;
+    width: 9%;
+    float: left;
+    
+}
+.gap_2{
+    height: 7%;
+    width: 5%;
+    float: left;
+}
+.menu{
+    height: 7%;
+    width: 7%;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+  }
+.menu:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(183, 228, 112);
+    transition: 2s;
+
+
+}
+.Game{
+    height: 7%;
+    width: 7%;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.drop{
+
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+}
+.drop a{
+    color: black;
+  padding: 1px 8px;
+  text-decoration: none;
+  display: block;
+  
+  
+}
+.drop a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(204, 60, 60);
+    transition: 2s;
+
+}
+.Game:hover .drop {
+    display: block;
+  }
+  .Game:hover .drop a{
+    background-color: antiquewhite;
+    
+  }
+
+  .esports{
+    height: 7%;
+    width: 7%;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.esports:hover .drop {
+    display: block;
+  }
+  .esports:hover .drop a{
+    background-color: antiquewhite;
+  }
+
+
+
+.gap{
+    height: 7%;
+    width: 2%;
+    float: left;
+}
+
+.big_gap{
+    height: 7%;
+    width: 21%;
+    float: left;
+}
+.sing{
+    height: 7%;
+    width: 7%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    line-height: 70px;
+}
+.sing a{
+    text-decoration: none;
+    color: black;
+}
+.sing a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(183, 228, 112);
+    transition: 2s;
+
+}
+
+
+.langu{
+    height: 7%;
+    width: 7%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+   
+    
+}
+
+.dropdown{
+
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+}
+.dropdown a{
+    color: black;
+  padding: 1px 8px;
+  text-decoration: none;
+  display: block;
+  
+  
+}
+.dropdown a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(204, 60, 60);
+    transition: 2s;
+
+}
+.stble{
+
+    
+        position: relative;
+        display: inline-block;    
+}
+
+
+.langu:hover .dropdown {
+    display: block;
+  }
+  .langu:hover .dropdown a{
+    background-color: antiquewhite;
+  }
+
+.gap_3{
+    height: 7%;
+    width: 2%;
+    float: left;
+    background-color: black;
+}
+/*main par start*/
+.main{
+    height: 930px;
+    width: 100%;
+   background-image: url(25.jpg);
+   background-size: cover;
+
+
+}
+.first{
+    height: 10%;
+    width: 100%;
+   
+}
+.scend{
+    height: 51%;
+    width: 100%;
+
+}
+/* all social media link*/
+.scend_1{
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #instra {
+    top: 220px;
+    background-color: #04AA6D;
+  }
+  
+  #face {
+    top: 280px;
+    background-color: #2196F3;
+  }
+  
+  #twit {
+    top: 340px;
+    background-color: #f44336;
+  }
+  
+  #what {
+    top: 400px;
+    background-color: #555
+  }
+  .sec{
+    height: 550px;
+    width: 40%;
+    float: left;
+    
+    
+  }
+  .img{
+    margin-top: 120px;
+    cursor: pointer;
+    width: 300px;
+  }
+  .img:hover{
+    width: auto;
+  }
+  .sec_1{
+    height: 550px;
+    width: 40%;
+    float: left;
+   
+  }
+  
+  /* all social media link*/
+
+
+    .footer{
+      height: 200px;
+      width: 100%;
+      background-color: rgb(87, 62, 62);
+    }
+  .footer_1{
+    height: 100%;
+    width: 25%;
+    float: left;
+    
+   
+  }
+  .footer_2 {
+    height: 100%;
+    width: 25%;
+    float: left;
+   
+  }
+  .footer_3 {
+    height: 100%;
+    width: 25%;
+    float: left;
+   
+  }
+
+
+  .footer_1 ul{
+    list-style-type: none;
+  }
+  .footer_2 ul{
+    list-style-type: none;
+    padding-top: 5px;
+  }
+  .footer_1 a{
+    text-decoration: none;
+   color: white;
+  }
+  .footer_1 a:hover{
+    text-decoration: underline;
+   color: #2196F3;
+  }
+  .footer_2 a{
+    text-decoration: none;
+   color: white;
+  }
+  .footer_2 a:hover{
+    text-decoration: underline;
+   color: blueviolet;
+  }
+  .button {
+    background-color: #0cdb13;
+    border: none;
+    color: rgb(247, 235, 235);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  #email{
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+.form{
+  margin-top: 40px;
+}
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+ 
+
+
+
